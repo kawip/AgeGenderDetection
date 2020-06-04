@@ -10,7 +10,6 @@ from PIL import Image, ImageDraw, ImageOps, ImageFont
 import argparse
 import numpy as np
 from detect import detect_all
-import numpy as np
 
 LANG = {
     "TH": [
