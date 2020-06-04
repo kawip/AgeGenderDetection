@@ -1,9 +1,8 @@
 #A Gender and Age Detection program by Mahesh Sawant
 
 import cv2
-import math
 import argparse
-import streamlit as st
+
 
 
 def highlightFace(net, frame, conf_threshold=0.7):
