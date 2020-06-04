@@ -6,11 +6,9 @@ Created on Tue May 26 16:10:56 2020
 """
 import streamlit as st
 import cv2
-from PIL import Image, ImageDraw, ImageOps, ImageFont
-import argparse
+from PIL import Image, ImageOps
 import numpy as np
 from detect import detect_all
-import numpy as np
 
 LANG = {
     "TH": [
