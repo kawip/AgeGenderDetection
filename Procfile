@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run faceAge_Gender.py
+web:sh setup.sh && streamlit run faceAge_Gender.py
